@@ -1,0 +1,15 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Set a nice background color that will work with both light and dark themes */
+  background-color: #f0f2f5; 
+}
+
+/* In dark mode, MUI's CssBaseline will override this, which is what we want */
+body[data-mui-color-scheme='dark'] {
+  background-color: #121212;
+}
